@@ -1,14 +1,17 @@
 [
   {
-    "question": "bonjour",
-    "réponse": "Bonjour ! Comment puis-je vous aider ?"
+    "id": 1,
+    "titre": "Bonjour le monde",
+    "texte": "Ceci est un premier exemple de document."
   },
   {
-    "question": "comment ça va",
-    "réponse": "Je vais bien, merci. Et vous ?"
+    "id": 2,
+    "titre": "Deuxième document",
+    "texte": "Un autre exemple pour enrichir notre corpus."
   },
   {
-    "question": "quel est ton nom",
-    "réponse": "Je suis votre chatbot."
+    "id": 3,
+    "titre": "Troisième entrée",
+    "texte": "On peut ajouter autant d'éléments qu'on le souhaite dans ce format."
   }
 ]
