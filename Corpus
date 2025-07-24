@@ -1,10 +1,6 @@
-
-  {
-    "question" : "bonjour",
-    "réponse" : "Bonjour ! Comment puis-je vous aider ?"
-  },
-  {
-    "question" : "comment ça va",
-    "réponse" : "Je vais bien, merci."
-  }
+{
+  "comment ça va": "Je vais bien merci !",
+  "quel est ton nom": "Je suis un chatbot simple.",
+  "quel jour sommes-nous": "Je suis désolé, je n’ai pas accès à la date actuelle."
+}
 
