@@ -1,17 +1,10 @@
 [
   {
-    
-    "titre": "Bonjour le monde",
-    "texte": "Ceci est un premier exemple de document."
+    "question": "bonjour",
+    "réponse": "Bonjour ! Comment puis-je vous aider ?"
   },
   {
-    
-    "titre": "Deuxième document",
-    "texte": "Un autre exemple pour enrichir notre corpus."
-  },
-  {
-    
-    "titre": "Troisième entrée",
-    "texte": "On peut ajouter autant d'éléments qu'on le souhaite dans ce format."
+    "question": "comment ça va",
+    "réponse": "Je vais bien, merci."
   }
 ]
