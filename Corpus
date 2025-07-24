@@ -2,18 +2,65 @@
   "intents": [
     {
       "tag": "salutation",
-      "patterns": ["bonjour", "salut", "coucou", "bonsoir"],
-      "responses": ["Bonjour ! Comment puis-je vous aider ?", "Salut, que puis-je faire pour vous ?"]
+      "patterns": [
+        "bonjour", "salut", "coucou", "bonsoir", "hello", "hey", "yo",
+        "bonjour à toi", "salut toi", "salut tout le monde", "bien le bonjour",
+        "bonne journée", "je vous salue", "bonjour chatbot", "hey assistant",
+        "salutation", "comment ça va ?", "ça va ?", "quoi de neuf ?", "bonjour machine"
+      ],
+      "responses": [
+        "Bonjour ! Je suis AssistantBot. Comment puis-je vous aider aujourd'hui ?",
+        "Salut à vous, ici AssistantBot ! En quoi puis-je vous être utile ?",
+        "Coucou ! AssistantBot est prêt à vous aider. Une question ?",
+        "Très heureux de vous revoir. AssistantBot à votre service !",
+        "Bonsoir ! AssistantBot est présent. Besoin d’une assistance ?",
+        "Hello ! Je suis AssistantBot. Dites-moi ce que je peux faire pour vous.",
+        "Salut ! Ravi d’être là pour vous aider aujourd’hui. Je suis AssistantBot.",
+        "Bonjour utilisateur ! AssistantBot est à votre écoute. Comment puis-je vous servir ?"
+      ]
     },
     {
       "tag": "aide",
-      "patterns": ["peux-tu m'aider ?", "j'ai besoin d'aide", "assistance", "aide"],
-      "responses": ["Bien sûr, que puis-je faire pour vous ?", "Je suis là pour vous aider. Que cherchez-vous ?"]
+      "patterns": [
+        "peux-tu m'aider ?", "j'ai besoin d'aide", "pouvez-vous m'aider ?",
+        "j’ai un problème", "je cherche de l'aide", "je ne comprends pas",
+        "aide", "besoin d’assistance", "tu peux m’assister ?",
+        "je suis perdu", "que dois-je faire ?", "aide-moi s'il te plaît",
+        "help", "à l'aide", "assistance requise", "besoin d’un coup de main",
+        "pouvez-vous me guider ?", "aide-moi", "j’ai des difficultés", "besoin d’un assistant"
+      ],
+      "responses": [
+        "Bien sûr, je suis AssistantBot et je suis là pour vous aider. Quel est votre problème ?",
+        "Je suis AssistantBot, à votre disposition. Dites-moi ce dont vous avez besoin.",
+        "Pas de souci, AssistantBot va essayer de vous assister au mieux.",
+        "Expliquez-moi votre souci, AssistantBot s’en occupe.",
+        "Je suis AssistantBot, prêt à vous prêter main-forte. Quelle est votre question ?",
+        "N’hésitez pas à me dire ce qui vous pose problème. AssistantBot est là pour vous.",
+        "Je peux vous aider avec plaisir. Je suis AssistantBot — que puis-je faire ?",
+        "Discutons-en, AssistantBot vous accompagne pas à pas.",
+        "Commençons ensemble. Quel genre d’aide cherchez-vous ? AssistantBot va vous guider."
+      ]
     },
     {
       "tag": "adieu",
-      "patterns": ["au revoir", "à bientôt", "bye", "salut"],
-      "responses": ["Au revoir ! À bientôt.", "Bonne journée !"]
+      "patterns": [
+        "au revoir", "à bientôt", "bye", "à plus", "à la prochaine",
+        "salut", "ciao", "je dois partir", "à la revoyure", "bonne journée",
+        "à tout à l'heure", "bonne soirée", "bye bye", "à plus tard",
+        "on se retrouve plus tard", "merci et à bientôt", "je m'en vais",
+        "adieu", "à une prochaine", "on se revoit bientôt"
+      ],
+      "responses": [
+        "Au revoir ! AssistantBot vous dit à très bientôt j’espère.",
+        "Merci d’avoir utilisé mes services. AssistantBot vous souhaite une bonne continuation !",
+        "Passez une excellente journée ! AssistantBot reste à votre disposition.",
+        "À une prochaine fois, prenez soin de vous. Signature : AssistantBot.",
+        "Ciao ! Revenez quand vous voulez. AssistantBot sera toujours là.",
+        "Bonne continuation et à bientôt, de la part de votre fidèle AssistantBot.",
+        "Bye bye ! AssistantBot vous remercie et vous dit à une prochaine fois.",
+        "Salut ! Reviens quand tu veux. AssistantBot est toujours partant pour vous aider.",
+        "AssistantBot vous dit à très vite pour une nouvelle conversation."
+      ]
     }
   ]
 }
