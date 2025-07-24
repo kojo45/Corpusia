@@ -1,6 +1,19 @@
 {
-  "comment ça va": "Je vais bien merci !",
-  "quel est ton nom": "Je suis un chatbot simple.",
-  "quel jour sommes-nous": "Je suis désolé, je n’ai pas accès à la date actuelle."
+  "intents": [
+    {
+      "tag": "salutation",
+      "patterns": ["bonjour", "salut", "coucou", "bonsoir"],
+      "responses": ["Bonjour ! Comment puis-je vous aider ?", "Salut, que puis-je faire pour vous ?"]
+    },
+    {
+      "tag": "aide",
+      "patterns": ["peux-tu m'aider ?", "j'ai besoin d'aide", "assistance", "aide"],
+      "responses": ["Bien sûr, que puis-je faire pour vous ?", "Je suis là pour vous aider. Que cherchez-vous ?"]
+    },
+    {
+      "tag": "adieu",
+      "patterns": ["au revoir", "à bientôt", "bye", "salut"],
+      "responses": ["Au revoir ! À bientôt.", "Bonne journée !"]
+    }
+  ]
 }
-
